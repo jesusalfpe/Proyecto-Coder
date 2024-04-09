@@ -31,6 +31,8 @@ header a{
 
 /*   MAIN   */
 
+
+/*   CAMBIANDO TAMAÑO DEL LOGO   */
 .navbar-brand img{
     height: 150px;
     width: 150px;
