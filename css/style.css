@@ -1,0 +1,119 @@
+/*   RESET   */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  
+
+/*   HEADER   */
+
+
+header{
+    background-color: black;
+    display: flex; 
+    justify-content: center;
+    
+}
+
+header a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+/*   MAIN   */
+
+.navbar-brand img{
+    height: 150px;
+    width: 150px;
+} 
+
+
+.carousel-inner img{
+    width: 100%;
+    height: 1000px;
+
+}
+
+.titulo-productos h2{
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.card-body{
+    text-align: center;
+}
+
+ h3{
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+ }
+
+.listaProductos{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Personaliza la sección de garantía */
+.guarantee-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+
+  /* Ajusta el tamaño de la imagen */
+  .guarantee-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .col-md-3 img{
+    height: 250px;
+    height: 250px;
+
+  }
+
+  .category-section{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-body{
+    align-items: center;
+  }
+ 
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  /* Ajusta el espacio entre elementos del footer */
+  .footer-column {
+    padding-right: 20px;
+  }
+
+  /* Estilo para los enlaces de redes sociales */
+  .social-link {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* Estilo para los íconos de redes sociales */
+  .social-icon {
+    width: 30px;
+    height: 30px;
+  }
