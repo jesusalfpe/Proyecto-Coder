@@ -22,12 +22,15 @@ header{
 }
 
 header a{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
     
     
 }
+
+
+
 
 /*   MAIN   */
 
@@ -51,9 +54,21 @@ header a{
     
 }
 
+
+
+/*   CAMBIANDO CARACTERISTICAS DE LA LISTA DE PRODUCTOS  */
 .card-body{
     text-align: center;
+
 }
+
+.card img{
+  height: 150px;
+  width: 150px;
+
+}
+
+
 
  h3{
     
@@ -71,8 +86,13 @@ header a{
 
 /* Personaliza la sección de garantía */
 .guarantee-section {
-    padding: 50px 0;
-    background-color: #f8f9fa;
+    padding: 40px;
+    background-color: #9799e6;
+    
+  }
+
+  .guarantee-section .col-md-4{
+    text-align: center;
   }
 
   /* Ajusta el tamaño de la imagen */
@@ -95,27 +115,41 @@ header a{
   .card-body{
     align-items: center;
   }
+
+  .card{
+    align-items: center;
+  }
  
 
+
+
+  /*   FOOTER    */
 footer {
-    background-color: #343a40;
+    background-color: #000000;
     color: #fff;
     padding: 20px 0;
   }
 
-  /* Ajusta el espacio entre elementos del footer */
-  .footer-column {
-    padding-right: 20px;
-  }
+  
 
   /* Estilo para los enlaces de redes sociales */
   .social-link {
     display: inline-block;
     margin-right: 10px;
+    
   }
 
+  .footer-links a{
+    text-decoration: none;
+  }
+
+
+
   /* Estilo para los íconos de redes sociales */
-  .social-icon {
+  
+  .social-icons img{
+
     width: 30px;
     height: 30px;
   }
+
