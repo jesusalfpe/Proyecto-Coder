@@ -1,155 +1,181 @@
 /*   RESET   */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .selector-for-some-widget {
-    box-sizing: content-box;
-  }
+  box-sizing: content-box;
+}
 
-  
+
 
 /*   HEADER   */
 
 
-header{
-    background-color: black;
-    display: flex; 
-    justify-content: center;
-    
-}
-
-header a{
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    
-    
-}
-
-
-
-
-/*   MAIN   */
-
-
-/*   CAMBIANDO TAMAÑO DEL LOGO   */
-.navbar-brand img{
-    height: 150px;
-    width: 150px;
-} 
-
-
-.carousel-inner img{
-    width: 100%;
-    height: 1000px;
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
 
 }
 
-.titulo-productos h2{
-    text-align: center;
-    padding: 40px;
-    
-}
+header a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
 
-
-
-/*   CAMBIANDO CARACTERISTICAS DE LA LISTA DE PRODUCTOS  */
-.card-body{
-    text-align: center;
-
-}
-
-.card img{
-  height: 150px;
-  width: 150px;
 
 }
 
 
 
- h3{
-    
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 20px;
- }
 
-.listaProductos{
-    display: flex;
-    justify-content: space-around;
-}
+      /*   MAIN   */
 
 
-/* Personaliza la sección de garantía */
-.guarantee-section {
-    padding: 40px;
-    background-color: #9799e6;
-    
-  }
+      /*   CAMBIANDO TAMAÑO DEL LOGO   */
+      .navbar-brand img {
+        height: 125px;
+        width: 125px;
+      }
 
-  .guarantee-section .col-md-4{
-    text-align: center;
-  }
 
-  /* Ajusta el tamaño de la imagen */
-  .guarantee-img {
-    width: 150px;
-    height: 150px;
-  }
+      .carousel-inner img {
+        width: 100%;
+        height: 30%;
 
-  .col-md-3 img{
-    height: 250px;
-    height: 250px;
+      }
 
-  }
+      .titulo-productos h2 {
+        text-align: center;
+        padding: 40px;
 
-  .category-section{
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .card-body{
-    align-items: center;
-  }
-
-  .card{
-    align-items: center;
-  }
- 
+      }
 
 
 
-  /*   FOOTER    */
-footer {
-    background-color: #000000;
-    color: #fff;
-    padding: 20px 0;
-  }
+      /*   CAMBIANDO CARACTERISTICAS DE LA LISTA DE PRODUCTOS  */
+      .card-body {
+        text-align: center;
 
-  
+      }
 
-  /* Estilo para los enlaces de redes sociales */
-  .social-link {
-    display: inline-block;
-    margin-right: 10px;
-    
-  }
+      .card img {
+        height: 150px;
+        width: 150px;
 
-  .footer-links a{
-    text-decoration: none;
-  }
+      }
 
 
 
-  /* Estilo para los íconos de redes sociales */
-  
-  .social-icons img{
+      h3 {
 
-    width: 30px;
-    height: 30px;
-  }
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 5px;
+      }
 
+      .listaProductos {
+        display: flex;
+        justify-content: space-around;
+      }
+
+
+      /* Personaliza la sección de garantía */
+      .guarantee-section {
+        padding: 40px;
+        background-color: #9799e6;
+
+      }
+
+      .guarantee-section .col-md-4 {
+        text-align: center;
+      }
+
+      /* Ajusta el tamaño de la imagen */
+      .guarantee-img {
+        width: 150px;
+        height: 150px;
+      }
+
+      .col-md-3 img {
+        height: 250px;
+        height: 250px;
+
+      }
+
+      .category-section {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .card-body {
+        align-items: center;
+      }
+
+      .card {
+        align-items: center;
+      }
+
+
+
+
+      /*   FOOTER    */
+      footer {
+        background-color: #000000;
+        color: #fff;
+        padding: 20px 0;
+      }
+
+
+
+      /* Estilo para los enlaces de redes sociales */
+      .social-link {
+        display: inline-block;
+        margin-right: 10px;
+
+      }
+
+      .footer-links a {
+        text-decoration: none;
+      }
+
+
+
+      /* Estilo para los íconos de redes sociales */
+
+      .social-icons img {
+
+        width: 30px;
+        height: 30px;
+      }
+
+
+      @media screen and (max-width: 450px) {
+        header a {
+          font-size: 18px;
+        }
+      
+      
+      
+        
+        @media screen and (max-width: 450px) {
+          h3 {
+            font-size: 15px;
+            padding: 20px;
+      
+      
+      
+          }
+      
+          @media screen and (max-width: 325px) {
+            header a {
+              font-size: 12px;
+      
+      
+      
+      
+            }
