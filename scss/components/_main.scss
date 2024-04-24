@@ -1,0 +1,81 @@
+/*   MAIN   */
+
+/*   CAMBIANDO TAMAÑO DEL LOGO   */
+.navbar-brand {
+
+  img {
+      height: 125px;
+      width: 125px;
+  }
+}
+
+/*   CAMBIANDO TAMAÑO DE LAS IMAGENES DEL CAROUSEL  */
+.carousel-inner {
+  img {
+      width: 100%;
+      height: 30%;
+  }
+}
+
+.titulo-productos {
+  h2 {
+      text-align: center;
+      padding: 40px;
+
+  }
+}
+
+/*   CAMBIANDO CARACTERISTICAS DE LA LISTA DE PRODUCTOS  */
+.card-body {
+  text-align: center;
+
+}
+
+.card {
+  align-items: center;
+
+  img {
+      height: 150px;
+      width: 150px;
+  }
+}
+
+.listaProductos {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Personalizando la sección de garantía */
+.guarantee-section {
+  padding: 40px;
+  background-color: #9799e6;
+
+}
+
+.guarantee-section .col-md-4 {
+  text-align: center;
+}
+
+/* Ajusta el tamaño de las imagenes de Garantia  */
+.guarantee-img {
+  width: 150px;
+  height: 150px;
+}
+
+
+
+.category-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+h3 {
+
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}

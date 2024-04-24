@@ -5,9 +5,7 @@
   box-sizing: border-box;
 }
 
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
+
 
 
 
@@ -97,15 +95,11 @@ header a {
 
       /* Ajusta el tamaño de la imagen */
       .guarantee-img {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
       }
 
-      .col-md-3 img {
-        height: 250px;
-        height: 250px;
-
-      }
+    
 
       .category-section {
         display: flex;
