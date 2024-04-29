@@ -22,13 +22,13 @@ header {
 /*   MAIN   */
 /*   CAMBIANDO TAMAÑO DEL LOGO   */
 .navbar-brand img {
-  height: 125px;
-  width: 125px; }
+  height: 100px;
+  width: 100px; }
 
 /*   CAMBIANDO TAMAÑO DE LAS IMAGENES DEL CAROUSEL  */
 .carousel-inner img {
   width: 100%;
-  height: 30%; }
+  height: 40%; }
 
 .titulo-productos h2 {
   text-align: center;
@@ -43,10 +43,6 @@ header {
   .card img {
     height: 150px;
     width: 150px; }
-
-.listaProductos {
-  display: flex;
-  justify-content: space-around; }
 
 /* Personalizando la sección de garantía */
 .guarantee-section {
@@ -70,6 +66,10 @@ h3 {
   background-color: black;
   color: white;
   padding: 5px; }
+
+.listaProductos {
+  display: flex;
+  justify-content: space-evenly; }
 
 /*   FOOTER    */
 footer {
