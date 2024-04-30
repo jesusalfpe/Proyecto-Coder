@@ -2,13 +2,13 @@
 
 
 header {
-    background-color: black;
+    background-color: map-get($encabezado ,color-header );
     display: flex;
     justify-content: center;
 
     a {
         font-size: 25px;
-        color: white;
+        color: map-get($encabezado , color-text-header );
         text-decoration: none;
 
     }

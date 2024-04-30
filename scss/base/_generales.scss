@@ -10,5 +10,35 @@
 
 
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif !important;
 }
+
+
+//!  VARIABLES //!
+
+
+//!  Color del Footer //!
+$color-text-footer: white;
+$color-back-footer: black;
+
+
+//!  Color de la seccion de Garantia //!
+$color-back-Garantia: #9799e6;
+
+
+//!  MAPAS //!
+
+$encabezado:(
+    color-header: rgb(0, 0, 0),
+    color-text-header: white, 
+);
+
+//!  EXTENDS //!
+
+%flex-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
