@@ -24,6 +24,9 @@ header {
     font-size: 25px;
     color: white;
     text-decoration: none; }
+  header a:hover {
+    transform: scale(1.1);
+    transition: 1s; }
 
 /*   MAIN   */
 /*   CAMBIANDO TAMAÑO DEL LOGO   */
@@ -44,11 +47,17 @@ header {
     padding: 40px; }
 
 /*   CAMBIANDO CARACTERISTICAS DE LA LISTA DE PRODUCTOS  */
+.listaProductos {
+  display: flex;
+  justify-content: space-between; }
+
 .card-body h5 {
   text-align: center; }
 
 .card {
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px; }
   .card img {
     height: 150px;
     width: 150px; }
@@ -60,6 +69,12 @@ header {
 .guarantee-section {
   padding: 30px;
   background-color: #9799e6; }
+
+.guarantee-section .col-md-4 h2 {
+  text-align: center; }
+
+.guarantee-section .col-md-4 p {
+  text-align: center; }
 
 /* Ajusta el tamaño de las imagenes de Garantia  */
 .guarantee-img {
@@ -86,6 +101,13 @@ h3 {
 
 .politica-envio p {
   text-align: center; }
+
+.col-md-6 img:hover {
+  transform: scale(1.1);
+  transition: 1s; }
+
+h2 {
+  padding: 20px; }
 
 /*   FOOTER    */
 footer {

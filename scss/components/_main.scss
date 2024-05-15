@@ -31,6 +31,14 @@
 }
 
 /*   CAMBIANDO CARACTERISTICAS DE LA LISTA DE PRODUCTOS  */
+
+
+.listaProductos{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
 .card-body {
   @extend %flex-center;
 
@@ -42,6 +50,8 @@
 
 .card {
   align-items: center;
+  justify-content: space-between;
+  margin: 10px;
 
   img {
     height: 150px;
@@ -70,6 +80,12 @@
 
 .guarantee-section .col-md-4 {
   @extend %flex-center;
+  h2{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
  
 }
 
@@ -125,4 +141,15 @@ h3 {
     text-align: center;
 
   }
+}
+
+
+.col-md-6{
+  img:hover{
+    transform:scale(1.1);
+    transition: 1s;
+    
+  }
+}h2{
+  padding: 20px;
 }

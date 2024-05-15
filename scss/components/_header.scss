@@ -2,14 +2,21 @@
 
 
 header {
-    background-color: map-get($encabezado ,color-header );
+    background-color: map-get($encabezado , color-header);
     display: flex;
     justify-content: center;
 
     a {
         font-size: 25px;
-        color: map-get($encabezado , color-text-header );
+        color: map-get($encabezado , color-text-header);
         text-decoration: none;
+
+    }
+
+    a:hover {
+
+        transform: scale(1.1);
+        transition: 1s;
 
     }
 
